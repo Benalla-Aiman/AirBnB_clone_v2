@@ -1,0 +1,36 @@
+<center> <h2>AirBnB_clone_v2 is getting forked </h1> </center>
+
+This repository is the fruit of a collaborative student project undertaken by "Benalla Aiman" and "Laghdaf Ben Alla". Our aim was to construct a clone of the AirBnB website. In this initial stage, we focused on developing a backend interface, also known as a console, to manage program data. This console provides a range of commands that allow users to create, update, and destroy objects, as well as manage file storage. We implemented a system of JSON serialization/deserialization to ensure that storage is persistent across sessions.
+
+Throughout this project, we aimed to gain a deeper understanding of several key concepts:
+
+- **Unit testing**: We learned how to implement unit testing in a large project to ensure the functionality of individual units of source code.
+- **\*args and \*\*kwargs**: We explored how to use \*args to pass a variable number of non-keyworded arguments to functions, and \*\*kwargs to pass a variable number of keyword arguments.
+- **Named arguments in functions**: We learned how to handle named arguments in functions for greater flexibility and readability.
+- **MySQL database creation**: We gained experience in creating a MySQL database.
+- **MySQL user and privileges**: We learned how to create a MySQL user and grant it privileges for database access and modification.
+- **ORM (Object-Relational Mapping)**: We understood what ORM means and how it allows us to interact with our database, like we would with SQL. In other words, instead of writing SQL commands, we can just use Python to manipulate our database.
+- **Mapping Python Classes to MySQL tables**: We learned how to map a Python Class to a MySQL table which provides a more flexible way of working with databases.
+- **Handling different storage engines**: We developed the ability to handle 2 different storage engines with the same codebase which is crucial for maintaining code DRYness (Don't Repeat Yourself).
+- **Environment variables**: Lastly, we learned how to use environment variables which are very useful when you need to change your application's behavior without changing your code.
+
+We hope this gives you some insight into our learning journey through this project! 😊
+
+<center> <h1>HBNB - The Console</h1> </center>
+
+This repository contains the initial stage of a student project to build a clone of the AirBnB website. This stage implements a backend interface, or console, to manage program data. Console commands allow the user to create, update, and destroy objects, as well as manage file storage. Using a system of JSON serialization/deserialization, storage is persistent between sessions.
+
+---
+
+<center><h3>Repository Contents by Project Task</h3> </center>
+
+| Tasks | Files | Description |
+| ----- | ----- | ------ |
+| 0: Authors/README File | [AUTHORS](https://github.com/justinmajetich/AirBnB_clone/blob/dev/AUTHORS) | Project authors |
+| 1: Pep8 | N/A | All code is pep8 compliant|
+| 2: Unit Testing | [/tests](https://github.com/justinmajetich/AirBnB_clone/tree/dev/tests) | All class-defining modules are unittested |
+| 3. Make BaseModel | [/models/base_model.py](https://github.com/justinmajetich/AirBnB_clone/blob/dev/models/base_model.py) | Defines a parent class to be inherited by all model classes|
+| 4. Update BaseModel w/ kwargs | [/models/base_model.py](https://github.com/justinmajetich/AirBnB_clone/blob/dev/models/base_model.py) | Add functionality to recreate an instance of a class from a dictionary representation|
+| 5. Create FileStorage class | [/models/engine/file_storage.py](https://github.com/justinmajetich/AirBnB_clone/blob/dev/models/engine/file_storage.py) [/models/_ _init_ _.py](https://github.com/justinmajetich/AirBnB_clone/blob/dev/models/__init__.py) [/models/base_model.py](https://github.com/justinmajetich/AirBnB_clone/blob/dev/models/base_model.py) | Defines a class to manage persistent file storage system|
+| 6. Console 0.0.1 | [console.py](https://github.com/justinmajetich/AirBnB_clone/blob/dev/console.py) | Add basic functionality to console program, allowing it to quit, handle empty lines and ^D |
+| 7. Console 0.1 | [console.py](https://github.com/justinmajetich/AirBnB_clone/blob/dev/console.py) | Update the console with methods allowing the user to create, destroy, show, and update stored data |
